@@ -9,7 +9,7 @@ class MathUtilsTest {
 
     @Test
     void testSumar() {
-        assertEquals(7, utils.sumar(3, 4));
+        assertEquals(6, utils.sumar(3, 4));
         assertEquals(-1, utils.sumar(-3, 2));
     }
 
